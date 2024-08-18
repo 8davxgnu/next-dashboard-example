@@ -1,8 +1,8 @@
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
-  content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+  content: [ // content is an array that contains all files that TailwindCSS should scan for class names
+    './pages/**/*.{js,ts,jsx,tsx,mdx}', // ** means any directory or subdirectory; *.{js,ts, . . .} means any files that match with the specified extensions
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],

@@ -10,7 +10,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       {/* backtick : string literal */}
-      <body className= {`${inter.className} antialiased`} >{children}</body> 
+      <body className= {`${inter.className} antialiased`}>
+        <div>{children}</div>
+      </body> 
     </html>
   );
 }
